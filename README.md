@@ -1,3 +1,6 @@
+This repository contains code of ADDIS algorithm, an adaptive and discarding algorithm for online FDR control. 
+It also contains code for reproducing all the figures in the corresponding paper which is available at https://arxiv.org/abs/1905.11465
+
 --------------------------- Common gaudiance --------------------
 
 The main file is main.py. The experiments vary depending on the following passed arguments:
@@ -20,8 +23,6 @@ The main file is main.py. The experiments vary depending on the following passed
 --tau-value - the list of value of tau paired with the value of pi_A
 --lbd-value - the list of value of lbd paired with the value of pi_A
 
-
-This code borrowed substantial parts from Tijana Zrnic's code available at: https://github.com/tijana-zrnic/SAFFRONcode
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -51,3 +52,7 @@ python main.py --FDRrange "8,7,6"
 python main.py --FDRrange "11,10"
  
 --------------------------------------------------------
+
+This code borrowed substantial parts from Tijana Zrnic's code available at: https://github.com/tijana-zrnic/SAFFRONcode
+If you spot any issues or bugs, please contact me at jinjint(at)andrew(dot)cmu(dot)edu
+
