@@ -5,7 +5,7 @@ It also contains code for reproducing all the figures in the corresponding paper
 
 The main file is main.py. The experiments vary depending on the following passed arguments:  
 
-----------Common parameters  
+#----------Common parameters  
  
 num-runs - number of independent trials  
 
@@ -18,7 +18,7 @@ mu-N - used for gaussian tests as mu_N, where observations under the alternative
 mu-A - used for gaussian tests as mu_A, where observations under the alternative are N(Z,1), Z~N(mu_A,1)  
 
 
-----------Specific parameters for plotting power of ADDIS against different values of tau and lbd with single pi_A  
+#----------Specific parameters for plotting power of ADDIS against different values of tau and lbd with single pi_A  
 
 bestpara - whether to do this kind of plotting or not  
 
@@ -27,7 +27,7 @@ pi - the value of pi_A
 step - the step size of setting different tau and lbd  
 
 
------------Specific parameters for plotting power of different algorithms under the same settings  
+#-----------Specific parameters for plotting power of different algorithms under the same settings  
 
 FDRrange - integers encoding the choice of algorithms and parameters (listed in the comments of main.py)  
 
